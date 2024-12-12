@@ -16,7 +16,6 @@ class Animal
     {
         return $this->name;
     }
-    
     public function get_legs()
     {
         return $this->legs;

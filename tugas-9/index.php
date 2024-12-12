@@ -11,6 +11,7 @@ echo  $sheep->name . "<br>"; // "shaun"
 echo  $sheep->legs . "<br>"; // 4
 echo  $sheep->cold_blooded . "<br>"; // "no"
 
+
 echo "<br>";
 echo "<h2>Ini Adalah Release 1</h2>";
 
@@ -36,5 +37,4 @@ echo "Name : " . $sungokong->get_name() . "<br>";
 echo "Leghs : " . $sungokong->get_legs() . "<br>";
 echo "Cold Blooded : " . $sungokong->get_cold_blooded() . "<br>";
 echo "Yell : " . $sungokong->yell() . "<br>"; // "Auooo"
-
 ?>
