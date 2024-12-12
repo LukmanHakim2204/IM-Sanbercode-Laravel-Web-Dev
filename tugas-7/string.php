@@ -29,8 +29,8 @@
     echo "Jumlah kata : " . str_word_count($first_sentence); 
     $second_sentence = "I'm ready for the challenges"; // Panjang string: 28,  jumlah kata: 5
     echo "<br><br>Panjang Kalimat Kedua <br>";
-    echo "Panjang Kata :" . strlen($second_sentence) . "<br>"; 
-    echo "Jumlah kata : " . str_word_count($second_sentence);
+    echo "Panjang Kata :" . strlen($second_sentence) . "<br>";
+    echo "Jumlah kata : " . str_word_count($second_sentence); 
 
     echo "<h3> Soal No 2</h3>";
     /* 
@@ -42,7 +42,7 @@
     $string2 = "I love PHP";
 
     echo "<label>String: </label> \"$string2\" <br>";
-    echo "Kata pertama: " . substr($string2, 0, 1) . "<br>";
+    echo "Kata pertama: " . substr($string2, 0, 1) . "<br>"; //array mengambil kata
     // Lanjutkan di bawah ini
     echo "Kata kedua: " . substr($string2, 2, 5);
     echo "<br> Kata Ketiga: " . substr($string2, 6, 8);
