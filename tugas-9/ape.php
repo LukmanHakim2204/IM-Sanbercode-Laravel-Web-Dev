@@ -8,7 +8,7 @@ class Ape
     public function __construct($name)
     {
         $this->name = $name;
-        $this->legs = 4;
+        $this->legs = 2;
         $this->cold_blooded = "no";
         $this->yell = "Auooo";
     }

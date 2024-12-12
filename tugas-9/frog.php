@@ -31,5 +31,6 @@ class Frog
     {
         return $this->jump;
     }
+    
 }
 ?>
