@@ -29,8 +29,8 @@
     echo "Jumlah kata : " . str_word_count($first_sentence); 
     $second_sentence = "I'm ready for the challenges"; // Panjang string: 28,  jumlah kata: 5
     echo "<br><br>Panjang Kalimat Kedua <br>";
-    echo "Panjang Kata :" . strlen($second_sentence) . "<br>";
-    echo "Jumlah kata : " . str_word_count($second_sentence); 
+    echo "Panjang Kata :" . strlen($second_sentence) . "<br>"; //untuk menghitung panjang kata
+    echo "Jumlah kata : " . str_word_count($second_sentence); // untuk menghitung jumlah kata
 
     echo "<h3> Soal No 2</h3>";
     /* 
