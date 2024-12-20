@@ -67,7 +67,17 @@
                                 <p>Data Tables</p>
                             </a>
                         </li>
+
                     </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('cast') }}" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Cast
+                        </p>
+                    </a>
                 </li>
 
             </ul>

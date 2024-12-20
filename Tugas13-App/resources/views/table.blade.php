@@ -1,4 +1,4 @@
-@extends('header.master')
+@extends('header.master', ['title' => 'table'])
 @section('content')
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->

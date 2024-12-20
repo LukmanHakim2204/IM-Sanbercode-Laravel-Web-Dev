@@ -1,4 +1,4 @@
-@extends('header.master')
+@extends('header.master', ['title' => 'data table'])
 
 @push('styles')
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.11.3/datatables.min.css" />
